@@ -1,87 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bitcoin Malaysia (BTCM)</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .logo {
+      width: 180px;
+      margin-top: 40px;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 36px;
+    }
+
+    .nav {
+      margin-top: 40px;
+    }
+
+    .nav a {
+      color: gold;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .nav a:hover {
+      color: red;
+    }
+
+    .section {
+      margin: 60px auto;
+      width: 800px;
+      text-align: left;
+    }
+
+    .section h2 {
+      color: gold;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 100px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <img src="file_00000000768861f78d1597ce7e8b5171.png" alt="Bitcoin Malaysia Logo" class="logo">
-  </header>
 
-  <nav>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#btcm">Bitcoin Malaysia (BTCM)</a></li>
-      <li><a href="#btca">Bitcoin Asean (BTCA)</a></li>
-      <li><a href="#btcme">Bitcoin MeMe (BTCMeMe)</a></li>
-      <li><a href="#whitepaper">Whitepaper</a></li>
-    </ul>
-  </nav>
+  <img src="logo.png" alt="Bitcoin Malaysia Logo" class="logo" />
+  <h1>Bitcoin Malaysia (BTCM)</h1>
 
-  <main>
-    <section id="home">
-      <h1>Welcome to Bitcoin Malaysia Official Website</h1>
-      <p>Bitcoin Malaysia (BTCM) is a decentralized digital asset that represents Malaysia's strength in blockchain innovation. Built on the BNB Chain, it symbolizes rarity, independence, and a new digital movement uniting Southeast Asia.</p>
-    </section>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#azlan">About Azlan Nakamoto</a>
+    <a href="#btcm">About BTCM</a>
+    <a href="#btca">About BTCA</a>
+    <a href="#btcme">About BTCMeMe</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#how">How to Buy</a>
+    <a href="#whitepaper">Whitepaper</a>
+  </div>
 
-    <section id="btcm">
-      <h2>About Bitcoin Malaysia (BTCM)</h2>
-      <p>BTCM is the core token representing the national vision of Malaysia in crypto. With a limited supply of 21 million tokens, it mirrors Bitcoin’s rarity while localizing its purpose to a new wave of digital empowerment.</p>
-      <h3>BTCM Tokenomics</h3>
-      <ul>
-        <li>Total Supply: 21,000,000 BTCM</li>
-        <li>Liquidity Vault: 16,450,000 BTCM</li>
-        <li>Founder Wallet: 500,000 BTCM</li>
-        <li>Early Funders: 3,500,000 BTCM</li>
-        <li>Contract: <a href="https://bscscan.com/token/0xDF99Ef73c30698De321aeDE06bd322ACec3BA8a0" target="_blank">0xDF99...8a0</a></li>
-      </ul>
-      <h3>How to Buy BTCM</h3>
-      <p><a href="https://pancakeswap.finance/swap?outputCurrency=0xDF99Ef73c30698De321aeDE06bd322ACec3BA8a0" target="_blank">Buy BTCM on PancakeSwap</a></p>
-    </section>
+  <div class="section" id="azlan">
+    <h2>About Azlan Nakamoto</h2>
+    <p>The mysterious yet dedicated founder of BTCM, building a national crypto legacy with transparency and strength for the future of Malaysia.</p>
+  </div>
 
-    <section id="btca">
-      <h2>About Bitcoin Asean (BTCA)</h2>
-      <p>BTCA extends the spirit of BTCM across Southeast Asia. With a supply of 42 million, it aims to become a symbol of regional digital growth, unity, and decentralized finance across ASEAN nations.</p>
-      <h3>BTCA Tokenomics</h3>
-      <ul>
-        <li>Total Supply: 42,000,000 BTCA</li>
-        <li>Contract: <a href="https://bscscan.com/token/0x48eC1Cb1be6B4f79fC7ccBb89d6Add76AA09EAA1" target="_blank">0x48eC...a1</a></li>
-      </ul>
-      <h3>How to Buy BTCA</h3>
-      <p>Listing and liquidity coming soon.</p>
-    </section>
+  <div class="section" id="btcm">
+    <h2>About BTCM</h2>
+    <p>Bitcoin Malaysia (BTCM) is a rare national-themed cryptocurrency, limited to just 21 million supply. It's built on BNB Chain, designed for trust, long-term growth, and symbolic value for Malaysians.</p>
+  </div>
 
-    <section id="btcme">
-      <h2>About Bitcoin MeMe (BTCMeMe)</h2>
-      <p>BTCMeMe is a rare meme token with a total supply of just 5,000 tokens. It reflects humor, culture, and exclusivity, serving the loyal community with pride.</p>
-      <h3>BTCMeMe Tokenomics</h3>
-      <ul>
-        <li>Total Supply: 5,000 BTCMeMe</li>
-        <li>Liquidity Vault: 3,000 BTCMeMe</li>
-        <li>Founder Wallet: 1,000 BTCMeMe</li>
-        <li>Early Funder Vault: 1,000 BTCMeMe</li>
-        <li>Contract: <a href="https://bscscan.com/token/0xe6F25FB7B29d97a78cF42a8e4d206aA9271353bF" target="_blank">0xe6F2...3bF</a></li>
-      </ul>
-      <h3>How to Buy BTCMeMe</h3>
-      <p><a href="https://pancakeswap.finance/swap?outputCurrency=0xe6F25FB7B29d97a78cF42a8e4d206aA9271353bF" target="_blank">Buy BTCMeMe on PancakeSwap</a></p>
-    </section>
+  <div class="section" id="btca">
+    <h2>About BTCA</h2>
+    <p>Bitcoin Asean (BTCA) represents a regional expansion of BTCM’s vision — with 42 million supply reflecting unity and future power across Southeast Asia.</p>
+  </div>
 
-    <section id="whitepaper">
-      <h2>Whitepaper</h2>
-      <p>Our official whitepaper is currently being finalized. It will outline the vision, tokenomics, and long-term goals of BTCM, BTCA, and BTCMeMe.</p>
-    </section>
-  </main>
+  <div class="section" id="btcme">
+    <h2>About BTCMeMe</h2>
+    <p>The ultimate meme token with only 5,000 total supply. A satirical yet limited-edition crypto artwork under the BTCM ecosystem.</p>
+  </div>
+
+  <div class="section" id="tokenomics">
+    <h2>Tokenomics</h2>
+    <p>Explore the full supply breakdown and wallet distribution of BTCM, BTCA, and BTCMeMe.</p>
+  </div>
+
+  <div class="section" id="how">
+    <h2>How to Buy</h2>
+    <p>Step-by-step guide to buy BTCM, BTCA, and BTCMeMe using Trust Wallet and PancakeSwap.</p>
+  </div>
+
+  <div class="section" id="whitepaper">
+    <h2>Whitepaper</h2>
+    <p>Download the official whitepapers to learn about project vision, supply, wallets, and roadmap.</p>
+  </div>
 
   <footer>
-    <p>&copy; 2025 Bitcoin Malaysia | All Rights Reserved</p>
-    <p>
-      <a href="https://t.me/BTCM_Malaysia" target="_blank">Telegram</a> |
-      <a href="https://x.com/BTCM_Malaysia" target="_blank">X (Twitter)</a> |
-      <a href="https://www.tiktok.com/@bitcoin.malaysia2025" target="_blank">TikTok</a>
-    </p>
+    &copy; 2025 Bitcoin Malaysia. All rights reserved.
   </footer>
+
 </body>
 </html>
