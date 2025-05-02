@@ -118,11 +118,17 @@ section {
 }
 
 code {
+  display: inline-block;
+  word-break: break-word;
+  white-space: pre-wrap;
   background-color: #222;
-  padding: 2px 6px;
-  border-radius: 4px;
+  padding: 5px 10px;
+  border-radius: 6px;
   color: #ffcc00;
-  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 footer {
