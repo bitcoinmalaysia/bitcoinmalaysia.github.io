@@ -149,3 +149,37 @@ footer a {
 footer a:hover {
   color: red;
 }
+/* New Header Style - Logo Left, Text Right */
+.top-header {
+  background-color: #111;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid gold;
+  justify-content: flex-start;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrap img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-size: 20px;
+  color: gold;
+  font-weight: 800;
+}
+
+.brand-text p {
+  margin: 0;
+  color: #ccc;
+  font-size: 13px;
+}
