@@ -118,19 +118,17 @@ section {
 }
 
 code {
-  display: block;
+  display: inline-block;
   word-break: break-word;
   white-space: pre-wrap;
   background-color: #222;
-  padding: 10px 12px;
+  padding: 5px 8px;
   border-radius: 6px;
   color: #ffcc00;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.4;
   max-width: 100%;
   overflow-wrap: break-word;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 footer {
