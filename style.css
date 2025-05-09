@@ -183,3 +183,21 @@ footer a:hover {
   color: #ccc;
   font-size: 13px;
 }
+.section.highlight {
+  border-left: 6px solid #FFD700;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.section.highlight h2,
+.section.highlight h3 {
+  color: #FFD700;
+}
+
+.section.highlight code {
+  background-color: #1c1c1c;
+  color: #FFD700;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
